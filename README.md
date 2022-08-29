@@ -190,3 +190,4 @@ Vue.use(TxUI)
 | label       | item的文本 | string   | ''     |
 | label-width | 表单的宽度 | string   | '80px' |
 
+持续更新中。。。
