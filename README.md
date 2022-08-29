@@ -129,6 +129,7 @@ Vue.use(TxUI)
 | activeColor   | 自定义的激活颜色   | string   | #1ec63b |
 | inactiveColor | 自定义的不激活颜色 | string   | #dd001b |
 | name          | name属性           | string   | 无      |
+
 事件支持：
 | 事件名称 | 事件描述     |
 | -------- | ------------ |
