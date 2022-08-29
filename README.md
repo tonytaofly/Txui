@@ -101,7 +101,24 @@ Vue.use(TxUI)
 <tx-input placeholder="请输入密码" type="password" v-model="password" show-password></tx-input>
 ```
 
-![1661697122891](C:\Users\xin'xin\AppData\Roaming\Typora\typora-user-images\1661697122891.png)
+| 参数名称      | 参数描述                  | 参数类型 | 默认值 |
+| ------------- | ------------------------- | -------- | ------ |
+| type          | 文本框类型(text/password) | string   | text   |
+| placeholder   | 占位符                    | string   | 无     |
+| disabled      | 禁用                      | Boolean  | false  |
+| clearable     | 是否显示清空按钮          | Boolean  | false  |
+| show-password | 是否显示密码切换按钮      | Boolean  | false  |
+| name          | name属性                  | string   | 无     |
+
+事件支持：
+
+| 事件名称 | 事件描述     |
+| -------- | ------------ |
+| change   | 内容改变事件 |
+| blur     | 失去焦点事件 |
+| focus    | 获取焦点事件 |
+
+
 
 ###### switch组件：
 
@@ -110,7 +127,16 @@ Vue.use(TxUI)
 <tx-switch v-model="active" active-color="skyblue" inactive-color="red"></tx-switch>
 ```
 
-![1661697197113](C:\Users\xin'xin\AppData\Roaming\Typora\typora-user-images\1661697197113.png)
+| 参数名称      | 参数描述           | 参数类型 | 默认值  |
+| ------------- | ------------------ | -------- | ------- |
+| v-model       | 双向绑定           | Boolean  | false   |
+| activeColor   | 自定义的激活颜色   | string   | #1ec63b |
+| inactiveColor | 自定义的不激活颜色 | string   | #dd001b |
+| name          | name属性           | string   | 无      |
+
+| 事件名称 | 事件描述     |
+| -------- | ------------ |
+| change   | 内容改变事件 |
 
 ###### radio组件：
 
