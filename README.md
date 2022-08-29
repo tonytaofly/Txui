@@ -2,7 +2,7 @@
 
 ###### 1.安装包代码：
 
-npm i tx0v0-ui(可能会存在npm版本问题，向旧版本兼容代码：npm config set legacy-peer-deps true)
+npm i tx0v0-ui(可能会存在npm的版本问题，向旧版本兼容代码：npm config set legacy-peer-deps true)
 
 ###### 2.在mian.js中代码：
 
